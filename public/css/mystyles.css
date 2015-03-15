@@ -1,0 +1,214 @@
+#nav{list-style:none;margin: 0px;padding: 0px;}
+#nav li {
+float: left;
+margin-right: 20px;
+font-size: 14px;
+font-weight:bold;
+}
+#nav li a{color:#428bca;text-decoration:none}
+#nav li a:hover{color:#006699;text-decoration:none}
+
+
+#notification_li
+{
+position:relative;
+left:80px;
+
+}
+
+#notificationContainer::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+#notificationContainer::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#notificationContainer::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
+
+
+#notificationContainer 
+{
+background-color: #fff;
+border: 1px solid rgba(100, 100, 100, .4);
+-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+overflow-y: scroll;
+overflow-x: hidden;
+position: absolute;
+top: 30px;
+margin-left: -155px;
+width: 400px;
+z-index: 3;
+display: none;
+height:400px;
+}
+
+#notificationContainer:before {
+content: '';
+display: block;
+position: absolute;
+width: 0;
+height: 0;
+color: transparent;
+border: 10px solid black;
+border-color: transparent transparent blue;
+margin-top: -30px;
+margin-left: 155px;
+}
+
+
+#notificationTitle
+{
+font-weight: bold;
+padding: 8px;
+font-size: 13px;
+background-color: #ffffff;
+position: absolute;
+z-index: 4;
+width: 396px;
+border-bottom: 1px solid #dddddd;
+}
+
+
+#notificationsBody
+{
+padding: 33px 0px 0px 0px !important;
+min-height:300px;
+}
+
+
+#notificationFooter
+{
+background-color: #e9eaed;
+text-align: center;
+font-weight: bold;
+padding: 8px;
+font-size: 12px;
+border-top: 1px solid #dddddd;
+}
+
+
+#notification_count 
+{
+padding: 3px 10px 3px 10px;
+background: #cc0000;
+color: #ffffff;
+font-weight: bold;
+margin-left: 90px;
+border-radius: 9px;
+-moz-border-radius: 9px; 
+-webkit-border-radius: 9px;
+position: absolute;
+top:-10px;
+margin-top: -1px;
+font-size: 11px;
+}
+
+
+
+#head_and_main_menu
+{
+    position: fixed;
+    z-index:3;
+    background:#ffffff;    
+}
+
+.loginbtn{
+  margin :30%; 
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.footpanel
+{
+    margin-left:35%
+}
+
+
+
+#upload-wrapper {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#upload-wrapper input[type=file] {
+	border: 1px solid #DDD;
+	background: #FFF;
+	border-radius: 5px;
+}
+#upload-wrapper #submit-btn {
+	border: none;
+	padding: 7px;
+	background: #61BAE4;
+	border-radius: 5px;
+	color: #FFF;
+}
+#output{
+	padding: 5px;
+	font-size: 12px;
+}
+#output img {
+	border: 1px solid #DDD;
+	padding: 5px;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+
+
+
+
+
+.course-detail-staff .course-staff-image {
+    float: left; 
+    margin-right: 10px;
+    width: 130px;
+}
+
+
+
+.course-detail-staff .staff-row {
+    list-style: none;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #4e4e4e;
+    margin: 0 0 1em 0;
+    padding: 0;
+    overflow: auto;
+}    
+
+
